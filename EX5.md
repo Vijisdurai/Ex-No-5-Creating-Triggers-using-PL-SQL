@@ -41,7 +41,15 @@ END IF;
 END;
 /
 ```
+## update salary code:
+```
+update employee
+set salary=150000
+where empid=2;
+```
+
 ## Output:
+![image](https://github.com/Vijisdurai/Ex-No-5-Creating-Triggers-using-PL-SQL/assets/118343184/08973bc3-9978-487c-81b7-825738fbf54b)
 
 ## Result:
 Hence trigger has been created using PL/SQL.
