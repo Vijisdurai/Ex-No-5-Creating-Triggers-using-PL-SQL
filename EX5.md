@@ -16,7 +16,7 @@ To create a Trigger using PL/SQL.
 ## Program:
 ### Create employee table
 ```
-create table EMPLOYEE3 (empid NUMBER, empname VARCHAR(20), dept VARCHAR(10),salary NUMBER);
+create table employee(empid NUMBER, empname VARCHAR(20), dept VARCHAR(10),salary NUMBER);
 ```
 ### Create salary_log table
 ```
